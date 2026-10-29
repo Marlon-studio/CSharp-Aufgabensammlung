@@ -1,16 +1,15 @@
-﻿namespace Aufgabe_2
-using System;
+﻿using System.Net.NetworkInformation;
 
-namespace MonatsRechner
+namespace Aufgabe_2
 {
+    using System;
+
     internal class Program
     {
         private static void Main(string[] args)
         {
             int zahl = 0;
             bool gueltig = false;
-
-            // Lieber Gruss
 
             while (!gueltig)
             {
