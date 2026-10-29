@@ -10,6 +10,8 @@ namespace MonatsRechner
             int zahl = 0;
             bool gueltig = false;
 
+            // Lieber Gruss
+
             while (!gueltig)
             {
                 Console.WriteLine("Wie viele Tage hat der Monat, für den Sie die Sekundenzahl berechnen wollen? (Erlaubt: 28, 29, 30, 31)");
